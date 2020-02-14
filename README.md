@@ -1,7 +1,7 @@
 # cmu-ep-test
 
 ## Project setup
-```
+
 setup .env file
 ```
 npm install
@@ -28,6 +28,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ## Docker Deploy
 ```
 docker build -t cmu-ep-test .
+```
 ```
 docker run -d -p 80:80 --rm --name cmu-ep-test cmu-ep-test
 ```
