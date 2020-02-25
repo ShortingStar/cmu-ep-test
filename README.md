@@ -37,7 +37,7 @@ docker build -t [image name] .
 docker run -d -p [unused port on server]:[port that expose from docker file] --rm --name [image name] [container name]
 ```
 
-### EXAPMLE
+### EXAMPLE
 ```
 docker run -d -p 81:80 --rm --name cmu-ep-test cmu-ep-test
 ```
