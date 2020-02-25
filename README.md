@@ -2,8 +2,7 @@
 
 ## Project setup
 
-### Compiles and hot-reloads for development
-setup .env file
+### setup .env file
 ```
 VUE_APP_BASEAPI = Your Domain
 VUE_APP_USERAUTH = Your Username
