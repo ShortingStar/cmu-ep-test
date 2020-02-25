@@ -1,12 +1,16 @@
 # cmu-ep-test
 
 ## Project setup
-```
+
+### Compiles and hot-reloads for development
 setup .env file
+```
 VUE_APP_BASEAPI = Your Domain
 VUE_APP_USERAUTH = Your Username
 VUE_APP_PASSAUTH = Your Password
 ```
+
+### Install Dependencies
 ```
 npm install
 ```
