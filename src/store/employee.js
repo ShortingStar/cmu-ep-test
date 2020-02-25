@@ -1,9 +1,8 @@
 import axios from 'axios'
 
 const apiClient = axios.create({
-  //   baseURL: 'https://dummy-api.cm.edu',
   baseURL: process.env.VUE_APP_BASEAPI,
-  timeout: 1000,
+  timeout: 10000,
   auth: {
     username: process.env.VUE_APP_USERAUTH,
     password: process.env.VUE_APP_PASSAUTH
